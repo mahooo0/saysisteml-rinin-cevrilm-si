@@ -1,0 +1,44 @@
+.inp{
+    width: 350px;
+    height: 150px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 3rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+.incon{
+    border-radius: 50%;
+    background-color: aliceblue;
+    border: solid 1px black;
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+     margin: -2rem 0 0 -1rem;
+}
+.div{
+    width: 400px;
+    height: 200px;
+}
+.inp2{
+    /* min-width: 350px; */
+    width: auto;
+    min-height: 150px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 3rem;
+    border-radius: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.convert{
+    width: 150px;
+    height: 60px;
+}
